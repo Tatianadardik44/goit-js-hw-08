@@ -2,13 +2,12 @@ ul {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
-  margin: auto;
 }
 img {
   display: block;
 
   border-radius: 5px;
-  /* box-shadow: 0 0 5px rgba(0, 0, */
+
   transition: transform 0.3s ease;
 }
 .gallery {
@@ -16,6 +15,9 @@ img {
   flex-wrap: wrap;
   gap: 24px;
   justify-content: center;
+  max-width: 1128px;
+  padding-top: 32px;
+  margin: auto;
 }
 .modal {
   background-color: rgba(46, 47, 66, 0.8);

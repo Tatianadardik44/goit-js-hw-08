@@ -79,7 +79,9 @@ function createMarcup(arrey) {
       alt="${image.description}"
       width= "360"
       height="200"/>
-</li>`)
+      </a>
+</li>
+`)
     .join("")
   
 };
@@ -95,7 +97,7 @@ function handImageClick(event) {
 
   const instance = basicLightbox.create(`
   <div class="modal">
-    <img src="${originalImage}" alt="${altText}" width ="1112" height = "640">
+    <img src="${originalImage}" alt="${altText}" width ="1128" height = "648">
     </div>`
   );
   instance.show(); 
